@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Self Driving Car 
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="mycanvas"></canvas>
+    <div id= "verticalButtons">
+        <button onclick="save()">&#x1F4BE;</button>
+        <button onclick="discard()">&#x1F5D1;</button>
+
+    </div>
+
+    <script src="utili.js"></script>
+    <script src="sensors.js"></script>
+    <script src="network.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!-- 
+We are using the HTML <canvas> element in this code to create a 2D drawing surface on a web page. The <canvas> element provides a space where we can use JavaScript to draw and manipulate graphics, such as lines, shapes, and images, dynamically.
+
+    In this specific code, the <canvas> element is used to create a graphical representation of a self-driving car simulation. Here's why we are using the <canvas> element:
+    
+    Graphics Rendering: The <canvas> element provides a dedicated area where we can render and display graphics. We can draw various elements, such as roads, cars, strips, and sensors, on the canvas.
+    
+    Animation: By utilizing JavaScript and the <canvas> element together, we can create animations by updating the canvas content dynamically. In this code, the animate function is repeatedly called using requestAnimationFrame, which updates the canvas content and creates the illusion of motion.
+    
+    Interactivity: With the <canvas> element, we can listen to user interactions, such as mouse clicks or keyboard input, and respond accordingly. In this code, keyboard events are captured to control the car's movement.
+    
+    Real-time Visualization: The canvas allows us to visualize and represent real-time data or simulations. In this case, the car's position, movement, and sensor readings are updated and displayed on the canvas, giving a visual representation of the self-driving car simulation.
+    
+    Overall, the <canvas> element provides a powerful and flexible way to create and manipulate graphics on the web, making it suitable for applications such as games, data visualization, simulations, and interactive experiences.
+    
+     -->
+    
+    
+    
