@@ -147,12 +147,7 @@ class Car{
     }
 
     draw(ctx , drawSensor = false){
-    //   if(this.damaged){
-    //     ctx.fillStyle= "gray";
 
-    //   }else{
-    //     ctx.fillStyle= color;
-    //   }
 
          ctx.save();
          ctx.translate(this.x,this.y);
@@ -191,10 +186,4 @@ class Car{
     }
 }
 
-
-// // The code ctx.beginPath() is used to begin a new path in the 2D rendering context. Let's understand what it does:
-
-// // When working with the 2D rendering context of a canvas, you can draw shapes and paths using a series of drawing commands. A path is a collection of points, lines, curves, and other shapes that make up the desired graphical element.
-
-// // The beginPath() method starts a new path by clearing any existing sub-paths or shapes. It allows you to define a fresh set of drawing commands without interference from any previously defined paths.
 
