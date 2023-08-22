@@ -30,18 +30,12 @@ class Road{
 
 
     draw(ctx){
-        /// defining foothpath of road
         ctx.lineWidth = 5;
         ctx.strokeStyle = "white";
-// ctx.beginPath() begins a new path, which is a sequence of lines or curves.
         ctx.beginPath();
-//ctx.moveTo(this.left, this.top) moves the starting point of the path to the left boundary of the road at the top.        
         ctx.moveTo(this.left, this.top);
-        // moveTo == starting point of line
         ctx.lineTo(this.left, this.bottom);
-        //lineTo == ending point of line
         ctx.stroke();
-       // ctx.stroke(), resulting in the visualization of the ray.
 
         ctx.beginPath();
         ctx.moveTo(this.right, this.top);
