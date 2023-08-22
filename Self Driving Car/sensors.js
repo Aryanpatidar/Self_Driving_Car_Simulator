@@ -4,7 +4,6 @@ class Sensors{
         this.raycount = 8;
         this.raylength =150   ;
         this.rayspread =Math.PI/2;
-        // all rays within this spread;
         this.rays =[];
 
         this.readings=[];
@@ -106,8 +105,6 @@ class Sensors{
                 end.y 
               );
            ctx.stroke();
-         
-
             
             ctx.beginPath();
             ctx.lineWidth=2;
