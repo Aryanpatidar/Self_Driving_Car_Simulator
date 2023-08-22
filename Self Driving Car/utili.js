@@ -1,16 +1,7 @@
 function lerp(A,B,t){
     return A+(B-A)*t;
 }
-// consider 2 lines A....B , C......D
-// for line A...B , there is a variable t , t>=0 && t<=1 // t tells us distance of any point from A on line A...B using lrp function
-// similarly u for line C..D
 
-// Ix1 = Ax+(Bx-Ax)t // x cordinate of any point on line AB
-// Ix2 = Cx+(Cx-Dx)u // x cordinate of any point on line CD
-// for intersection;
-
-// Ix1 == Ix2 && Iy1==Iy2
-// sol his eq gives us (t&& u)
 
 
 function getIntersection(A,B,C,D){ 
