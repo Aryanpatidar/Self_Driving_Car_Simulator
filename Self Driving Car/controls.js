@@ -14,9 +14,7 @@ class Controls {
                 break;
         }
        
-        // # because it is a private method we can't access it outside the controls;
     }
-// function(event) == (event)=> , but when we write function of events , this.  stops referring to constructor calls 
 #addKeyboardListeners() {
     document.onkeydown = (event) => {
         switch (event.key) {
